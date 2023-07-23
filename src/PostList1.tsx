@@ -12,8 +12,7 @@ const PostList1 = () => {
                 title: 'Placeholder Title',
                 body: 'Placeholder Body',
             },
-        ],
-        refetchInterval: 1000,
+        ]
     });
 
     if (status === 'loading') <h1>Loading...</h1>;
